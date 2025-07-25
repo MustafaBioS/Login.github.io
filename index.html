@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1 class="tlog">Login</h1>
+        <div class="background"></div>
+        <p class="temail">Email Address:</p>
+        <input class="email" type="email" placeholder="Enter Your E-mail" required>
+        <p class="tpass">Password:</p>
+        <input class="password" type="password" placeholder="Enter Your Password" minlength="8" maxlength="15" required>
+        <button class="btn" onclick="showAlert()">Log in</button>
+        <div class="check">
+        <input type="checkbox" class="checkbox">
+        <span class="ctxt">Remember me</span>
+        </div>
+        <a href="forgot.html" class="forgot">Forgot Password?</a>
+        <span class="dont">Don't have an account? <a class="register" href="register.html">Register</a></span>
+    </div>
+</body>
+
+
+<script>
+    function showAlert() {
+        alert("login and signup are WIP");
+    }
+</script>
+
+
+</html>
+
+
